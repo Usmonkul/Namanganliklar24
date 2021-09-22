@@ -11,6 +11,12 @@ body {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
 /* Container */
 .container {
   width: 100%;
@@ -83,4 +89,19 @@ body {
   border-radius: 60px;
   background-color: #fff;
   border: none;
+}
+/* Navbar */
+.navbar {
+  padding: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav-item {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #7F7F7F;
 }
