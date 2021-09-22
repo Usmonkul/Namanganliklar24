@@ -1,0 +1,86 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+body {
+  /* Fonts: Rubik: 400, 500, 700, */
+  font-family: 'Rubik', "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color:#4A4B4C;
+  padding: 0;
+  margin: 0;
+}
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px auto;
+}
+/* Header section */
+.site-header {
+  background-color: #F6F6F6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side {
+  display: flex;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.right-side div:not(:last-child) {
+  margin-right: 25px;
+}
+.logo {
+  color: #7296ee;
+  background-color: #fff;
+  margin-right: 32px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px 6px;
+}
+.logo h1 {
+  display: inline;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.currency-wrapper {
+  display: flex;
+  align-items: center;
+}
+.currrency:first-child {
+  margin-right: 25px;
+}
+.currency-sign {
+  color: #2959CE;
+}
+.header-botton a {
+  color: #fff;
+  text-decoration: none;
+  background-color:#7296EC;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+.searchbox input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.searchbox input[type=text] {
+  float: right;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  font-size: 17px;
+  border-radius: 60px;
+  background-color: #fff;
+  border: none;
+}
