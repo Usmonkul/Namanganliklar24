@@ -12,35 +12,32 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="header-container container">
-      <div class="left-side">
-        <div class="logo">
-          <h1>Namanganliklar 24</h1>
+    <div class="top-header">
+      <div class="header-container container">
+        <div class="left-side">
+          <div class="logo">
+            <img src="/img/logo.svg" alt="webcite-logo" width="264" height="28">
+          </div>
+          <div class="currency-wrapper">
+            <p class="currrency"><span class="currency-sign">&#36;</span> 10137.2</p>
+            <p class="currrency"><span class="currency-sign">&#8381;</span> 135.26</p>
+          </div>
         </div>
-        <div class="currency-wrapper">
-          <p class="currrency"><span class="currency-sign">&#36;</span> 10137.2</p>
-          <p class="currrency"><span class="currency-sign">&#8381;</span> 135.26</p>
-        </div>
-      </div>
-      <div class="right-side">
-        <div class="searchbox">
-          <input type="text" placeholder="Search..">
-        </div>
-        <div class="lanbotton">
-          <div>UZ</div>
-          <div>RU</div>
-        </div>
-        <div class="header-botton">
-          <a href="#">Log in</a>
+        <div class="right-side">
+          <div class="searchbox">
+            <input type="text" placeholder="Search..">
+          </div>
+          <div class="lanbotton">
+            <a class="languz" href="#">Uz</a>
+            <a class="langru" href="#">Ru</a>
+          </div>
+          <div class="header-botton">
+            <a href="#">Log in</a>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <nav class="navbar">
-
-    </nav> -->
-
-  </header>
-  <main>
+     <!-- Navigation bar -->
     <nav class="navbar container">
       <ul class="nav">
         <li class="nav-links">
@@ -50,7 +47,7 @@
           <a href="#" class="nav-item">Интересное</a>
         </li>
         <li class="nav-links">
-          <a href="#"class="nav-item">Экономика</a>
+          <a href="#" class="nav-item">Экономика</a>
         </li>
         <li class="nav-links">
           <a href="#" class="nav-item">Политика</a>
@@ -76,74 +73,83 @@
       </ul>
     </nav>
     <hr class="hr-line container">
+    <div class="advertisement container">
+      <img src="/img/add.jpg" alt="advertizement">
+    </div>
+
+  </header>
+  <main>
+    <section class="hotnews container">
+      <ul class="newslist">
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h2>
+            <p class="newstext">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+          </div>
+          <img class="newsimg" src="img/image3-1.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image4-1.png" alt="news-logo-image" width="20" height="20">
+            <p>ИА Красная Весна 15:55</p>
+          </div>
+        </li>
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Ученые доказали экспериментальным путем пользу покровных культур</h2>
+            <p class="newstext">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+          </div>
+          <img class="newsimg" src="img/image1-1.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image5-3.png" alt="news-logo-image" width="20" height="20">
+            <p>Газета.Ru 12:54</p>
+          </div>
+        </li>
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h2>
+            <p class="newstext">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+          </div>
+          <img class="newsimg" src="img/image4-1.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image5-1.png" alt="news-logo-image" width="20" height="20">
+            <p >Хайтек+ 13:44</p>
+          </div>
+        </li>
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h2>
+            <p class="newstext">Во время презентации iPhone 13 Apple придала большое значения...</p>
+          </div>
+          <img class="newsimg" src="img/image3.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image4.png" alt="news-logo-image" width="20" height="20">
+            <p>Digger.ru 14:25</p>
+          </div>
+        </li>
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h2>
+            <p class="newstext">Во время презентации iPhone 13 Apple придала большое значение...</p>
+          </div>
+          <img class="newsimg" src="img/image1.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image5-2.png" alt="news-type-image" width="20" height="20">
+            <p>Lenta.ru 10:54</p>
+          </div>
+        </li>
+        <li class="newsbox">
+          <div class="textbox">
+            <h2 class="newsheading">Китайская марка JAC повысила цены на лифтбек и пикап в России</h2>
+            <p class="newstext">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+          </div>
+          <img class="newsimg" src="img/image4.jpg" alt="">
+          <div class="news-type">
+            <img src="img/image5.png" alt="news-logo-image" width="20" height="20">
+            <p>Тарантас Ньюс 10:44</p>
+          </div>
+        </li>
+      </ul>
+    </section>
   </main>
-  <div class="advertisement container">
-    <img src="/img/add.jpg" alt="advertizement">
-  </div>
-  <section class="hotnews container">
-    <ul class="newslist">
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h2>
-          <p class="newstext">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-        </div>
-        <img class="newsimg" src="/img/image 3-1.jpg" alt="">
-        <div>
-          <p>ИА Красная Весна 15:55</p>
-        </div>
-      <div></li></div>
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Ученые доказали экспериментальным путем пользу покровных культур</h2>
-          <p class="newstext">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
-        </div>
-        <img class="newsimg" src="/img/image 1-1.jpg" alt="">
-        <div>
-          <p>Газета.Ru 12:54</p>
-        </div>
-      </li>
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h2>
-          <p class="newstext">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
-        </div>
-        <img class="newsimg" src="/img/image 4-1.jpg" alt="">
-        <div>
-          <p>Хайтек+ 13:44</p>
-        </div>
-      </li>
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h2>
-          <p class="newstext">Во время презентации iPhone 13 Apple придала большое значения...</p>
-        </div>
-        <img class="newsimg" src="/img/image 3.jpg" alt="">
-        <div>
-          <p>Digger.ru 14:25</p>
-        </div>
-      </li>
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h2>
-          <p class="newstext">Во время презентации iPhone 13 Apple придала большое значение...</p>
-        </div>
-        <img class="newsimg" src="/img/image 1.jpg" alt="">
-        <div>
-          <p>Lenta.ru 10:54</p>
-        </div>
-      </li>
-      <li class="newsbox">
-        <div class="textbox">
-          <h2 class="newsheading">Китайская марка JAC повысила цены на лифтбек и пикап в России</h2>
-          <p class="newstext">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
-        </div>
-        <img class="newsimg" src="/img/image 4.jpg" alt="">
-        <div>
-          <p>Тарантас Ньюс 10:44</p>
-        </div>
-      </li>
-    </ul>
-  </section>
 
 </body>
 </html>

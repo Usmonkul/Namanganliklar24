@@ -21,22 +21,25 @@ li {
 .container {
   width: 100%;
   max-width: 1260px;
-  /* padding-left: 30px;
-  padding-right: 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0px auto;
 }
 /* Header section */
-.site-header {
+.top-header {
   background-color: #F6F6F6;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
+}
+.logo {
+  width: 276px;
+  background-color: #000
 }
 .left-side {
   display: flex;
@@ -49,18 +52,14 @@ li {
   margin-right: 25px;
 }
 .logo {
-  color: #7296ee;
   background-color: #fff;
   margin-right: 32px;
   border-radius: 10px;
   text-align: center;
   padding: 8px 6px;
-}
-.logo h1 {
-  display: inline;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  width: 276px;
+  display: flex;
+  align-items: center
 }
 .currency-wrapper {
   display: flex;
@@ -92,10 +91,25 @@ li {
   background-color: #fff;
   border: none;
 }
-/* Navbar */
-.navbar {
-  padding: 0;
+.lanbotton {
+  display: inline-flex;
+  background-color: #DCE6FF;
+  border-radius: 39px;
+  padding: 3px 13px 3px 3px;
+  font-size: 13px;
+  align-items: center;
 }
+.languz {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 8px;
+  color: #000
+}
+.langru {
+  color: #A6A6A6;
+}
+/* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -109,6 +123,7 @@ li {
 }
 .hr-line {
   margin-bottom: 40px;
+  width: 1200px;
 }
 
 .advertisement img {
@@ -116,25 +131,24 @@ li {
 }
 
 /* Hotnews section */
-.hotnews {
-  padding: 0;
-}
 .newslist {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
 }
 .newsbox {
-  width: 394px;
+  width: 390px;
   background: #F6F6F6;
   border-radius: 15px;
-  margin: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 .textbox {
   margin-bottom: 15px;
+  flex-grow: 1;
 }
 .newsheading {
   font-weight: 500;
@@ -145,4 +159,14 @@ li {
 .newsimg {
   width: 100%;
   margin-bottom: 15px;
+}
+.news-type {
+  display: flex;
+  align-items: center
+
+}
+.news-type p {
+  font-size: 12px;
+  color: #5E5F61;
+  margin-left: 10px;
 }
