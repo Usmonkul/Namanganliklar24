@@ -170,3 +170,30 @@ li {
   color: #5E5F61;
   margin-left: 10px;
 }
+/* Notification */
+.notification {
+  background-image: url("/img/notification.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  height: 100px;
+  margin: 60px auto;
+  padding: 24px 71px 24px 29px;
+}
+.noti-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000;
+}
+#notification-btn {
+  padding: 13px 30px;
+  background-color: #F78B3B;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
