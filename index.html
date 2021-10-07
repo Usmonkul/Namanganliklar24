@@ -27,9 +27,9 @@
           </ul>
         </div>
         <div class="right-side">
-          <div class="searchbox">
-            <input type="text" placeholder="Поиск..">
-          </div>
+          <form class="search-form"action="https://echo.htmlacademy.ru" method="GET">
+            <input class="search-input" type="search" name="search" placeholder="Поиск.." aria-label="Поиск" required>
+          </form>
           <div class="lanbotton">
             <a class="languz" href="#">УЗ</a>
             <a class="langru" href="#">РУ</a>
@@ -81,80 +81,156 @@
     </div>
 
   </header>
-  <main>
-    <section class="hotnews container">
-      <ul class="newslist">
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h2>
-            <p class="newstext">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+  <!-- Main section -->
+  <main class="main-section">
+    <!-- <h1>Namanhanliklar24 - News</h1> -->
+    <!-- Hot-news-section -->
+    <div class="container">
+      <section class="hotnews">
+        <!-- Grid-container -->
+        <ul class="newslist">
+          <!-- Grid item -->
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+              <p class="newstext">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            </div>
+            <img class="newsimg" src="img/image3-1.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image4-1.png" alt="news-logo-image" width="20" height="20">
+              <p>ИА Красная Весна 15:55</p>
+            </footer>
+          </li>
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Ученые доказали экспериментальным путем пользу покровных культур</a>
+              <p class="newstext">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+            </div>
+            <img class="newsimg" src="img/image1-1.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image5-3.png" alt="news-logo-image" width="20" height="20">
+              <p>Газета.Ru 12:54</p>
+            </footer>
+          </li>
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+              <p class="newstext">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+            </div>
+            <img class="newsimg" src="img/image4-1.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image5-1.png" alt="news-logo-image" width="20" height="20">
+              <p>Хайтек+</p>
+              <time datetime="2021-10-07T13:44:00">13:44</time>
+            </footer>
+          </li>
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+              <p class="newstext">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            </div>
+            <img class="newsimg" src="img/image3.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image4.png" alt="news-logo-image" width="20" height="20">
+              <p>Digger.ru 14:25</p>
+            </footer>
+          </li>
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+              <p class="newstext">Во время презентации iPhone 13 Apple придала большое значение...</p>
+            </div>
+            <img class="newsimg" src="img/image1.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image5-2.png" alt="news-type-image" width="20" height="20">
+              <p>Lenta.ru 10:54</p>
+            </footer>
+          </li>
+          <li class="newsbox">
+            <div class="textbox">
+              <a href="#" class="newsheading">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+              <p class="newstext">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+            </div>
+            <img class="newsimg" src="img/image4.jpg" alt="">
+            <footer class="news-type">
+              <img src="img/image5.png" alt="news-logo-image" width="20" height="20">
+              <p>Тарантас Ньюс 10:44</p>
+            </footer>
+          </li>
+        </ul>
+      </section>
+      <div class="notification">
+        <p class="noti-text">Хотите быть в курсе свежих новостей? <br> Включите уведомления!</p>
+        <button id="notification-btn" type="button">Включит</button>
+      </div>
+
+    <!-- Global news section -->
+      <section class="global-news">
+        <h2 class="global-news-heading">В мире</h2>
+        <!-- Cards-container-left -->
+        <div class="news-list">
+          <!-- Cards -->
+          <div class="news-list-card-horizontal">
+            <img class="news-image" src="/img/airplane.jpg" alt="news-article-image" width="210" height="165" srcset="/img/airplane.jpg 1x, /img/airplane@2x.jpg 2x">
+            <div class="news-aritcle-content">
+              <a class="global-news-card-header" href="#" >Китайский Чунцин запустил чартерный рейс для студентов до Британии</a>
+              <p class="news-article-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
+              <footer class="global-news-footer">
+                <img class="aritcle-source-card-icon" src="img/krasnaya-vesna.jpg" alt="news-logo-image" width="20" height="20">
+                <div class="article-cad-horizontal-source-time">
+                  <span class="article-source">ИА Красная Весна </span>
+                  <time datetime="2021-10-07T12:25:00">12:25</time>
+                </div>
+              </footer>
+            </div>
           </div>
-          <img class="newsimg" src="img/image3-1.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image4-1.png" alt="news-logo-image" width="20" height="20">
-            <p>ИА Красная Весна 15:55</p>
+          <div class="news-list-card-horizontal">
+            <img class="news-image" src="/img/merkil.jpg" alt="news-article-image" width="210" height="165" srcset="/img/merkil.jpg 1x, /img/merkil@2x.jpg 2x">
+            <div class="news-aritcle-content">
+              <a class="global-news-card-header" href="#" >В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</a>
+              <p class="news-article-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+              <footer class="global-news-footer">
+                <img class="aritcle-source-card-icon" src="img/tacc.jpg" alt="news-logo-image" width="20" height="20">
+                <div class="article-cad-horizontal-source-time">
+                  <span class="article-source">ТАСС</span>
+                  <time datetime="2021-10-07T11:35:00">11:35</time>
+                </div>
+              </footer>
+            </div>
           </div>
-        </li>
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Ученые доказали экспериментальным путем пользу покровных культур</h2>
-            <p class="newstext">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+          <div class="news-list-card-horizontal">
+            <img class="news-image" src="/img/street.jpg" alt="news-article-image" width="210" height="165" srcset="/img/street.jpg 1x, /img/street@2x.jpg 2x">
+            <div class="news-aritcle-content">
+              <a class="global-news-card-header" href="#" >Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</a>
+              <p class="news-article-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+              <footer class="global-news-footer">
+                <img class="aritcle-source-card-icon" src="img/stock.jpg" alt="news-logo-image" width="20" height="20">
+                <div class="article-cad-horizontal-source-time">
+                  <span class="article-source">РБК Инвестиции </span>
+                  <time datetime="2021-10-07T09:35:00">09:35</time>
+                </div>
+              </footer>
+            </div>
           </div>
-          <img class="newsimg" src="img/image1-1.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image5-3.png" alt="news-logo-image" width="20" height="20">
-            <p>Газета.Ru 12:54</p>
+          <div class="news-list-card-horizontal">
+            <img class="news-image" src="/img/china.jpg" alt="news-article-image" width="210" height="165" srcset="/img/china.jpg 1x, /img/china@2x.jpg 2x">
+            <div class="news-aritcle-content">
+              <a class="global-news-card-header" href="#" >Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</a>
+              <p class="news-article-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+              <footer class="global-news-footer">
+                <img class="aritcle-source-card-icon" src="img/solenka.jpg" alt="news-logo-image" width="20" height="20">
+                <div class="article-cad-horizontal-source-time">
+                  <span class="article-source">Solenka.info </span>
+                  <time datetime="2021-10-07T19:43:00">19:43</time>
+                </div>
+              </footer>
+            </div>
           </div>
-        </li>
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h2>
-            <p class="newstext">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
-          </div>
-          <img class="newsimg" src="img/image4-1.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image5-1.png" alt="news-logo-image" width="20" height="20">
-            <p >Хайтек+ 13:44</p>
-          </div>
-        </li>
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h2>
-            <p class="newstext">Во время презентации iPhone 13 Apple придала большое значения...</p>
-          </div>
-          <img class="newsimg" src="img/image3.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image4.png" alt="news-logo-image" width="20" height="20">
-            <p>Digger.ru 14:25</p>
-          </div>
-        </li>
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h2>
-            <p class="newstext">Во время презентации iPhone 13 Apple придала большое значение...</p>
-          </div>
-          <img class="newsimg" src="img/image1.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image5-2.png" alt="news-type-image" width="20" height="20">
-            <p>Lenta.ru 10:54</p>
-          </div>
-        </li>
-        <li class="newsbox">
-          <div class="textbox">
-            <h2 class="newsheading">Китайская марка JAC повысила цены на лифтбек и пикап в России</h2>
-            <p class="newstext">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
-          </div>
-          <img class="newsimg" src="img/image4.jpg" alt="">
-          <div class="news-type">
-            <img src="img/image5.png" alt="news-logo-image" width="20" height="20">
-            <p>Тарантас Ньюс 10:44</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-    <div class="notification">
-      <p class="noti-text">Хотите быть в курсе свежих новостей? <br> Включите уведомления!</p>
-      <button id="notification-btn" type="button">Включит</button>
+        </div>
+        <div class="show-more-botton">
+          <button class="show-more-btn" type="button">Показать ещё </button>
+        </div>
+      </section>
     </div>
   </main>
 
