@@ -85,6 +85,7 @@ li {
 }
 .currency-sign {
   color: #2959CE;
+  font-weight: 500;
 }
 .header-botton a {
   color: #fff;
@@ -97,7 +98,6 @@ li {
   width: 275px;
   height: 45px;
 }
-
 .search-input[type=search] {
   float: right;
   padding: 15px 20px 15px 40px;
@@ -105,6 +105,10 @@ li {
   border-radius: 60px;
   background-color: #fff;
   border: none;
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 15px 13px;
 }
 .lanbotton {
   display: inline-flex;
@@ -115,11 +119,14 @@ li {
   align-items: center;
 }
 .languz {
+  width: 30px;
+  height: 30px;
   background-color: #fff;
   border-radius: 50%;
   padding: 7px;
   margin-right: 8px;
-  color: #000
+  color: #000;
+  line-height: 14px;
 }
 .langru {
   color: #A6A6A6;
@@ -140,7 +147,6 @@ li {
   margin-bottom: 40px;
   width: 1200px;
 }
-
 .advertisement img {
   width: 100%;
 }
@@ -191,9 +197,8 @@ li {
 .news-type {
   display: flex;
   align-items: center
-
 }
-.news-type p {
+.hotnews-source-and-time {
   font-size: 12px;
   color: #5E5F61;
   margin-left: 10px;
@@ -264,28 +269,25 @@ li {
   margin-right: 15px;
   object-fit: cover;
 }
-.news-aritcle-content {
-
-}
 .global-news-card-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
   color: #000;
 }
-.news-article-text {
-}
 .global-news-footer {
   display: flex;
+  align-items: center;
 }
 .aritcle-source-card-icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
-.article-cad-horizontal-source-time {
-}
-.article-source {
+.article-cad-horizontal-source-time-global {
+  font-size: 12px;
+  line-height: 14px;
+  color:#5E5F61;
 }
 .show-more-btn {
   width: 796px;
@@ -311,7 +313,7 @@ li {
 }
 .sidebar-main-title {
   margin-top: 0;
-  font-style: 24px;
+  font-size: 24px;
   line-height: 28px;
   margin-bottom: 25px;
 }
@@ -334,16 +336,13 @@ li {
 }
 .article-cad-horizontal-source-time {
   margin-bottom: 20px;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 14px;
   color:#5E5F61;
-}
-.article-source {
 }
 .sidebar-ad {
   width: 338px;
 }
-
 /* footer */
 
 .site-footer {
@@ -355,7 +354,6 @@ li {
   margin-right: auto;
   margin-left: auto;
 }
-
 .logo-footer {
   margin-bottom: 15px;
 }
