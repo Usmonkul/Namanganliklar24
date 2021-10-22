@@ -40,6 +40,10 @@ li {
   padding-right: 20px;
   margin: 0px auto;
 }
+.btn {
+  background-color:#7297ef;
+  border-radius: 10px;
+}
 /* Header section */
 .top-header {
   background-color: #F6F6F6;
@@ -70,11 +74,15 @@ li {
   background-color: #fff;
   margin-right: 32px;
   border-radius: 10px;
-  text-align: center;
   padding: 8px 6px;
   width: 276px;
   display: flex;
-  align-items: center
+  align-items: center;
+  justify-content: center;
+}
+.logo a {
+  display: flex;
+  align-items: center;
 }
 .currency-wrapper {
   display: flex;
@@ -340,8 +348,14 @@ li {
   line-height: 14px;
   color:#5E5F61;
 }
-.sidebar-ad {
-  width: 338px;
+.layout-2-1-sidebar-item {
+  margin-bottom: 10px;
+}
+.sidebar-link {
+  display: block;
+  width: 393px;
+  height: 338px;
+  border-radius: 15px;
 }
 /* footer */
 
@@ -403,4 +417,86 @@ li {
 }
 .socialmedia-link-items:not(:last-child) {
   margin-right: 25px;
+}
+.socialmedia-link-items img {
+  display: block;
+}
+
+
+/* Contacts page */
+
+/* Form */
+.main-contend {
+}
+.contacts-wrapper {
+  display: flex;
+  padding-bottom: 100px;
+}
+.contacts-left-box {
+  width: 696px;
+  display: flex;
+  flex-direction: column;
+}
+.leftside-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.name-and-phone-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+input, textarea {
+  border-radius: 10px;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+input[type=text] {
+  width: 340px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+input[type=tel] {
+  width: 340px;
+  flex-grow: 1;
+}
+input[type=email] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 80px;
+  resize: vertical;
+}
+.form-btn {
+  color: #fff;
+  padding: 17px 30px;
+  line-height: 19px;
+  font-weight: 500;
+  border: none;
+  margin-top: 20px;
+
+}
+.contacts-right-box {
+  width: 494px;
+}
+
+
+.email-address-wrapper {
+}
+.contacts-right-heading {
+}
+.email-phone-link {
+}
+.phone-address-wrapper {
+}
+.location-wrapper {
+}
+.our-address {
 }
