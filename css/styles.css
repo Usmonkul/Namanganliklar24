@@ -477,7 +477,9 @@ li {
 
 
 /* Contacts page */
-
+.main-contend {
+  flex-grow: 1;
+}
 /* Form */
 .contacts-wrapper {
   display: flex;
@@ -574,4 +576,9 @@ textarea {
   margin: 0;
   line-height: 19px;
   color:#000;
+}
+
+/* interesting news section */
+.main-section-interesting-news {
+  flex-grow: 1;
 }
