@@ -1,4 +1,29 @@
 /* Global */
+/* rubik-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v14-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/rubik-v14-latin_cyrillic-regular.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/rubik-v14-latin_cyrillic-500.woff2') format('woff2'),
+    url('../fonts/rubik-v14-latin_cyrillic-500.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rubik-v14-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/rubik-v14-latin_cyrillic-700.woff') format('woff');
+  font-display: swap;
+}
 * {
   box-sizing: border-box;
 }
@@ -426,12 +451,9 @@ li {
 /* Contacts page */
 
 /* Form */
-.main-contend {
-}
 .contacts-wrapper {
   display: flex;
   padding-bottom: 100px;
-
 }
 .contacts-left-box {
   width: 696px;
@@ -519,8 +541,6 @@ textarea {
   border-bottom: 1px solid #D2D2D2;
   padding-bottom: 20px;
   margin-bottom: 20px;
-}
-.location-wrapper {
 }
 .our-address {
   margin: 0;
