@@ -582,3 +582,38 @@ textarea {
 .main-section-interesting-news {
   flex-grow: 1;
 }
+
+/* Articles page */
+.article-main {
+  flex-grow: 1;
+}
+.article-top {
+  margin-bottom: 30px;
+}
+.articles-heading {
+  font-style: 26px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.article-news-content {
+  margin-bottom: 50px;
+}
+.article-sidebar {
+  margin-top: 0;
+}
+.tesla-img {
+  display: block;
+  width: 797px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+.article-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+.article-hr {
+  margin-bottom: 60px;
+}
