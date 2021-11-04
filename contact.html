@@ -80,14 +80,14 @@
   <main class="main-contend">
     <div class="contacts-wrapper container">
       <div class="contacts-left-box">
-        <h4 class="leftside-heading">Напишите нам</h4>
+        <h1 class="leftside-heading">Напишите нам</h1>
         <form action="https://echo.htmlacademy.ru" method="post">
           <div class="name-and-phone-input">
-            <input type="text" name="full_name" placeholder="Имя" required autocomplete="off">
-            <input type="tel" name="phone_number" placeholder="Номер телефона" required autocomplete="off">
+            <input type="text" name="full_name" placeholder="Имя" required autocomplete="off" aria-label="Имя">
+            <input type="tel" name="phone_number" placeholder="Номер телефона" required autocomplete="off" aria-label="Номер телефона">
           </div>
-          <input type="email" name="email" placeholder="Электронная почта" required autocomplete="off">
-          <textarea name="message" placeholder="Текст"></textarea>
+          <input type="email" name="email" placeholder="Электронная почта" required autocomplete="off" aria-label="Электронная почта">
+          <textarea name="message" placeholder="Текст" aria-label="Текст" required></textarea>
           <button class="btn form-btn"type="submit">Отправить</button>
         </form>
         <div class="clear"></div>
